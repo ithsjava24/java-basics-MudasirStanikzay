@@ -10,7 +10,7 @@ import java.io.PrintStream;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-class AppTest {
+class Apptest {
     PrintStream originalOut;
     ByteArrayOutputStream bos;
 
