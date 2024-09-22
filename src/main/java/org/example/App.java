@@ -57,7 +57,7 @@ public class App {
         }
     }
 
-    private static void minMaxMedel() {
+    public static void minMaxMedel() {
         int min = priser[0], max = priser[0];
         int minHour = 0, maxHour = 0;
         int total = 0;
@@ -89,7 +89,7 @@ public class App {
         System.out.print(response);
     }
 
-    private static void sortera() {
+    public static void sortera() {
         int[] sorted  = new int[24];
 
         for (int i = 0; i < 24; i++) {
@@ -126,7 +126,7 @@ public class App {
         }
     }
 
-    private static void bästaLaddningstid() {
+    public static void bästaLaddningstid() {
         int minTotal = Integer.MAX_VALUE;
         int startHour = 0;
 
