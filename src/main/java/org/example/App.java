@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class App {
 
-    private static final int[] priser = new int[24];
+    private static int[] priser = new int[24];
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
